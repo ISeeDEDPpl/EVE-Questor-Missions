@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <mission>
   <pockets>
     <pocket id="0">
@@ -7,8 +7,16 @@
         <action name="WaitUntilTargeted">
           <parameter name="Timeout" value="30" />
         </action>
+        <action name="Ignore">
+          <parameter name="Add" value="Bomber Alvum" />
+          <parameter name="Add" value="Defeater Alvatis" />
+        </action>
         <action name="ClearPocket" />
-        <action name="Loot" />
+        <action name="Kill">
+          <parameter name="IgnoreAttackers" value="Defeater Alvatis" />
+          <parameter name="IgnoreAttackers" value="Bomber Alvum" />
+          <parameter name="BreakOnAttackers" value="True" />
+        </action>
         <action name="Done" />
       </actions>
     </pocket>
