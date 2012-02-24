@@ -37,7 +37,6 @@
           <parameter name="Target" value="Drone Structure" />
         </action>
         <action name="ClearPocket" />
-        <action name="Loot" />
         <action name="Kill">
           <parameter name="Target" value="Drone Bunker" />
         </action>

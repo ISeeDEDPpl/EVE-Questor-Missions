@@ -12,7 +12,6 @@
       <damagetype>EM</damagetype>
       <actions>
         <action name="ClearPocket" />
-        <!-- <action name="Loot" /> -->
         <action name="Activate">
           <parameter name="target" value="Acceleration Gate" />
         </action>
@@ -34,7 +33,6 @@
         <action name="Kill">
           <parameter name="target" value="Road House" />
         </action>
-        <action name="Loot" />
         <action name="Done" />
       </actions>
     </pocket>

@@ -13,7 +13,6 @@
         <action name="Kill">
           <parameter name="Target" value="Radio Telescope" />
         </action>
-        <action name="Loot" />
         <action name="ClearPocket" />
         <action name="Activate">
           <parameter name="Target" value="Acceleration Gate" />
