@@ -17,6 +17,7 @@
           <parameter name="IgnoreAttackers" value="Bomber Alvum" />
           <parameter name="BreakOnAttackers" value="True" />
         </action>
+        <action name="ClearPocket" />
         <action name="Done" />
       </actions>
     </pocket>
