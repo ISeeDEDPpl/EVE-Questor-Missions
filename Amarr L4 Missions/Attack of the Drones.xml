@@ -12,9 +12,13 @@
           <parameter name="Add" value="Defeater Alvatis" />
         </action>
         <action name="ClearPocket" />
+        <action name="Ignore">
+          <parameter name="Remove" value="Bomber Alvum&quot;" />
+          <parameter name="Remove" value="Defeater Alvatis" />
+        </action>
         <action name="Kill">
-          <parameter name="IgnoreAttackers" value="Defeater Alvatis" />
-          <parameter name="IgnoreAttackers" value="Bomber Alvum" />
+          <parameter name="Target" value="Defeater Alvatis" />
+          <parameter name="Target" value="Bomber Alvum" />
           <parameter name="BreakOnAttackers" value="True" />
         </action>
         <action name="ClearPocket" />

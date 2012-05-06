@@ -9,7 +9,6 @@
         </action>
         <action name="Ignore">
           <parameter name="Add" value="Mercenary Overlord" />
-          <parameter name="Add" value="Shadow's Wingman" />
           <parameter name="Add" value="Shadow's Grunt" />
           <parameter name="Add" value="Shadow's Goon" />
           <parameter name="Add" value="Shadow" />
@@ -31,11 +30,7 @@
           <parameter name="Remove" value="Shadow's Grunt" />
         </action>
         <action name="ClearPocket" />
-        <action name="Ignore">
-          <parameter name="Remove" value="Shadow's Wingman" />
-        </action>
-        <action name="ClearPocket" />		
-		<action name="LootItem">
+        <action name="LootItem">
           <parameter name="Target" value="Cargo Container" />
           <parameter name="Item" value="Reports" />
         </action>
