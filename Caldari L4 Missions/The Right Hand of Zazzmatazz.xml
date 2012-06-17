@@ -5,8 +5,9 @@
       <damagetype>Thermal</damagetype>
       <actions>
         <action name="Kill">
+          <parameter name="Target" value="Seven Deathguard" />
           <parameter name="Target" value="Seven Lookout" />
-		  <parameter name="Target" value="Seven Deathguard" />          
+		  <parameter name="IgnoreAttackers" value="true"></parameter>
         </action>
         <action name="ClearPocket" />
         <action name="MoveTo">

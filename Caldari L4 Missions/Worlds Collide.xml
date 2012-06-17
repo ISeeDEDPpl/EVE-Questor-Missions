@@ -1,26 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <mission>
   <damagetypes>
-    <damagetype>Kinetic</damagetype>
+    <damagetype>Explosive</damagetype>
   </damagetypes>
   <pockets>
     <pocket id="0">
-      <damagetype>Kinetic</damagetype>
+      <damagetype>Explosive</damagetype>
       <actions>
         <action name="WaitUntilTargeted">
           <parameter name="Timeout" value="30" />
         </action>
         <action name="ClearPocket" />
         <action name="Activate">
-          <parameter name="Target" value="Gate To The Serpentis Base" />
+          <parameter name="Target" value="Gate To The Cartel Base" />
         </action>
       </actions>
     </pocket>
     <pocket id="1">
-      <damagetype>Kinetic</damagetype>
+      <damagetype>Explosive</damagetype>
       <actions>
+        <action name="Kill">
+          <parameter name="Target" value="Tower Sentry Angel III" />
+        </action>
         <action name="WaitUntilTargeted">
-          <parameter name="Timeout" value="15" />
+          <parameter name="Timeout" value="30" />
         </action>
         <action name="ClearPocket" />
         <action name="Activate">
@@ -29,7 +32,7 @@
       </actions>
     </pocket>
     <pocket id="2">
-      <damagetype>Kinetic</damagetype>
+      <damagetype>Explosive</damagetype>
       <actions>
         <action name="WaitUntilTargeted">
           <parameter name="Timeout" value="15" />

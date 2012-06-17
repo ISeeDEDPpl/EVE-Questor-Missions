@@ -14,7 +14,7 @@
       <actions>
         <action name="ClearPocket" />
         <action name="Loot">
-          <parameter name="Target" value="Guristas Personnel Transport Wreck"/>
+          <parameter name="Target" value="Angel Cartel Personnel Transport Wreck"/>
           <parameter name="Item" value="Militants" />
         </action>
         <action name="Loot">
@@ -22,7 +22,7 @@
           <parameter name="Item" value="Militants" />
         </action>
 		<action name="Loot">
-          <parameter name="Target" value="Angel Cartel Personnel Transport Wreck"/>
+          <parameter name="Target" value="Guristas Personnel Transport Wreck"/>
           <parameter name="Item" value="Militants" />
         </action>
 		<action name="Loot">
