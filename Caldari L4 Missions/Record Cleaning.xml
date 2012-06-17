@@ -22,9 +22,6 @@
       <damagetype>Thermal</damagetype>
       <actions>
         <action name="ClearPocket" />
-        <action name="Kill">
-          <parameter name="Target" value="Asteroid Pirate Station" />
-        </action>
         <action name="Loot">
           <parameter name="Item" value="Hostages" />
           <parameter name="Target" value="Asteroid Pirate Station" />
