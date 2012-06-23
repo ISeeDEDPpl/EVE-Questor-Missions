@@ -18,9 +18,16 @@
     </pocket>
     <pocket id="1">
       <damagetype>Explosive</damagetype>
-      <actions>
-        <action name="Kill">
-          <parameter name="Target" value="Tower Sentry Angel III" />
+	  <actions>
+	    <action name="UseDrones">
+          <parameter name="Use" value="false"></parameter>
+        </action>
+		<action name="Kill">
+          <parameter name="Target" value="Angel Sentry Gun" />
+		  <parameter name="IgnoreAttackers" value="true"></parameter>
+        </action>
+		<action name="UseDrones">
+          <parameter name="Use" value="true"></parameter>
         </action>
         <action name="WaitUntilTargeted">
           <parameter name="Timeout" value="30" />
