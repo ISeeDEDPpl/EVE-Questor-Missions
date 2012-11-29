@@ -14,7 +14,7 @@
       <actions>
         <action name="MoveTo">
           <parameter name="Target" value="Ancient Caldari Outpost: Orieku" />
-          <parameter name="Distance" value="5000" />
+          <parameter name="Distance" value="8000" />
           <parameter name="StopWhenTargeted" value="true" />
         </action>
         <action name="WaitUntilTargeted">
