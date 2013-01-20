@@ -20,6 +20,9 @@
 		<action name="Kill">
           <parameter name="Target" value="Guristas Outpost" />
         </action>
+		<action name="Kill">
+          <parameter name="Target" value="Sansha Outpost" />
+        </action>
 		<action name="Done" />
       </actions>
     </pocket>
