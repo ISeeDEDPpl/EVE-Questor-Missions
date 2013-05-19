@@ -14,7 +14,7 @@
           <parameter name="Target" value="Gistior Defacer" />
         </action>
         <action name="Activate">
-          <parameter name="Target" value="Gate To The Cartel Base" />
+          <parameter name="Target" value="Gate To The Serpentis Base" />
         </action>
       </actions>
     </pocket>

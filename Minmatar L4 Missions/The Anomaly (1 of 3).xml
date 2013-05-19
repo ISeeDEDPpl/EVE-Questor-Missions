@@ -7,6 +7,10 @@
           <parameter name="Target" value="Life Pod" />
           <parameter name="Item" value="Oura Madusaari" />
         </action>
+        <action name="Loot">
+          <parameter name="Target" value="Cargo Container" />
+          <parameter name="Item" value="Oura Madusaari" />
+        </action>
         <action name="Activate">
           <parameter name="Target" value="Acceleration Gate" />
         </action>
