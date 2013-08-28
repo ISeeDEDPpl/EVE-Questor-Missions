@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <missions>
-  <trytobring>Gate Key</trytobring>
   <pockets>
     <pocket id="0">
       <damagetype>Kinetic</damagetype>
       <actions>
+        <action name="WaitUntilTargeted">
+          <parameter name="Timeout" value="60" />
+        </action>
         <action name="ClearPocket" />
         <action name="LootItem">
           <parameter name="Target" value="Cargo Container" />
