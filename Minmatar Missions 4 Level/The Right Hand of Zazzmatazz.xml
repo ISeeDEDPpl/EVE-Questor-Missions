@@ -4,15 +4,7 @@
     <pocket id="0">
       <damagetype>Thermal</damagetype>
       <actions>
-        <action name="Kill">
-          <parameter name="Target" value="Seven Deathguard" />
-          <parameter name="Target" value="Seven Lookout" />
-		  <parameter name="IgnoreAttackers" value="true"></parameter>
-        </action>
         <action name="ClearPocket" />
-        <action name="MoveTo">
-          <parameter name="Target" value="Outpost Headquarters" />
-        </action>
         <action name="Kill">
           <parameter name="Target" value="Outpost Headquarters" />
         </action>
