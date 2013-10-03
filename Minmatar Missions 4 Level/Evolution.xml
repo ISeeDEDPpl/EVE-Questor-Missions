@@ -23,18 +23,6 @@
         <action name="Kill">
           <parameter name="Target" value="Infested Station" />
         </action>
-        <action name="Activate">
-          <parameter name="Target" value="Navigational Beacon" />
-        </action>
-      </actions>
-    </pocket>
-    <pocket id="2">
-      <damagetype>EM</damagetype>
-      <actions>
-        <action name="WaitUntilTargeted">
-          <parameter name="Timeout" value="30" />
-        </action>
-        <action name="ClearPocket" />
         <action name="Done" />
       </actions>
     </pocket>
