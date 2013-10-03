@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <mission>
+  <bring>Angel Diamond Tag</bring>
   <pockets>
     <pocket id="0">
       <actions>
@@ -11,18 +12,17 @@
     <pocket id="1">
       <damagetype>Explosive</damagetype>
       <actions>
+        <action name="Kill">
+          <parameter name="Target" value="Angel Tactical Outpost" />
+          <parameter name="Target" value="Scanner Post" />
+          <parameter name="IgnoreAttackers" value="true" />
+        </action>
         <action name="Ignore">
           <parameter name="Add" value="Gistatis Praefectus" />
           <parameter name="Add" value="Gistatis Tribuni" />
           <parameter name="Add" value="Gist General" />
           <parameter name="Add" value="Gist Commander" />
           <parameter name="Add" value="Gist War General" />
-        </action>
-        <action name="ClearPocket" />
-        <action name="Kill">
-          <parameter name="Target" value="Angel Tactical Outpost" />
-          <parameter name="Target" value="Scanner Post" />
-          <parameter name="IgnoreAttackers" value="true" />
         </action>
         <action name="ClearPocket" />
         <action name="Ignore">
@@ -35,7 +35,6 @@
           <parameter name="Remove" value="Gist Commander" />
           <parameter name="Remove" value="Gist War General" />
         </action>
-        <action name="ClearPocket" />
         <action name="ClearPocket" />
         <action name="Activate">
           <parameter name="target" value="Acceleration Gate" />
@@ -59,7 +58,6 @@
           <parameter name="Remove" value="Gist Nephilim" />
         </action>
         <action name="ClearPocket" />
-        <action name="ClearPocket" />
         <action name="Activate">
           <parameter name="target" value="Acceleration Gate" />
         </action>
@@ -80,16 +78,15 @@
     </pocket>
     <pocket id="4">
       <actions>
-        <action name="Ignore">
-		  <parameter name="Add" value="Gist Warlord" />
-          <parameter name="Add" value="Gist Nephilim" />
-          <parameter name="Add" value="Gist Saint" />
-        </action>
-        <action name="ClearPocket" />
         <action name="Kill">
           <parameter name="Target" value="Storage Silo" />
           <parameter name="Target" value="Radio Telescope" />
           <parameter name="IgnoreAttackers" value="true" />
+		  <parameter name="Add" value="Gist Warlord" />
+          <parameter name="Add" value="Gist Nephilim" />
+          <parameter name="Add" value="Gist Saint" />
+        </action>
+        <action name="Ignore">   
         </action>
         <action name="ClearPocket" />
         <action name="Ignore">
@@ -97,7 +94,6 @@
           <parameter name="Remove" value="Gist Nephilim" />
           <parameter name="Remove" value="Gist Saint" />
         </action>
-        <action name="ClearPocket" />
         <action name="ClearPocket" />
         <action name="Activate">
           <parameter name="target" value="Acceleration Gate" />
@@ -126,9 +122,23 @@
           <parameter name="Remove" value="Gist Saint" />
         </action>
         <action name="ClearPocket" />
-        <action name="ClearPocket" />
-		<action name="Done" />
+        <action name="Activate">
+          <parameter name="target" value="Acceleration Gate" />
+        </action>
       </actions>
+    </pocket>
+	<pocket id="6">
+      <damagetype>Explosive</damagetype>
+	    <action name="Kill">
+		  <parameter name="BreakOnAttackers" value="true" />
+		  <parameter name="IgnoreAttackers" value="true" />
+          <parameter name="Target" value="Arch Gistii Ruffian" />
+		  <parameter name="Target" value="Angel Viper" />
+		  <parameter name="Target" value="Arch Gistii Nomad" />
+		  <parameter name="Target" value="Angel Webfier" />
+        </action>
+		<action name="ClearPocket" />
+		<action name="Done" />
     </pocket>
   </pockets>
 </mission>
