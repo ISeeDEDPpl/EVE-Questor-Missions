@@ -14,12 +14,6 @@
         <action name="WaitUntilTargeted">
           <parameter name="Timeout" value="30" />
         </action>
-        <action name="Kill">
-          <parameter name="Target" value="Mordus Gladius"></parameter>
-		  <parameter name="Target" value="Mordus Bounty Hunter"></parameter>
-		  <parameter name="Target" value="Mordus Katana"></parameter>
-		  <parameter name="IgnoreAttackers" value="true"></parameter>
-        </action>
 		<action name="ClearPocket" />
         <action name="Activate">
           <parameter name="target" value="Acceleration Gate" />
