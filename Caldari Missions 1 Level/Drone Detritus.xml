@@ -14,7 +14,7 @@
       <damagetype>Kinetic</damagetype>
       <actions>
 	    <action name="ClearPocket" />
-		<action name="Loot">
+		<action name="LootItem">
           <parameter name="Item" value="Rogue Drone A.I. Core" />
         </action>
         <action name="Done" />
