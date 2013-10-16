@@ -35,7 +35,7 @@
           <parameter name="Timeout" value="15" />
         </action>
         <action name="ClearPocket" />
-        <action name="Loot">
+        <action name="LootItem">
           <parameter name="Target" value="Damaged Heron" />
           <parameter name="Item" value="Ship's Crew" />
         </action>
