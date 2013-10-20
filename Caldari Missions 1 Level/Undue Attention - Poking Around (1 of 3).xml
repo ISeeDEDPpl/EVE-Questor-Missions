@@ -5,9 +5,9 @@
       <damagetype>Kinetic</damagetype>
       <actions>
         <action name="MoveTo">
-		  <parameter name="Target" value="Stargate Under Contruction" />
-		</action>
-		<action name="WaitUntilTargeted">
+          <parameter name="Target" value="Stargate Under Construction" />
+        </action>
+        <action name="WaitUntilTargeted">
           <parameter name="Timeout" value="5" />
         </action>
         <action name="Done" />  
