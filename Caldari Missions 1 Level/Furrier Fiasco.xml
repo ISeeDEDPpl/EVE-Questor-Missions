@@ -21,9 +21,9 @@
         </action>
 	    <action name="ClearPocket" />
 		<action name="Kill">
-          <parameter name="Target" value="Infested Laboratory" />
+          <parameter name="Target" value="Infested Laboratory"/>
         </action>
-        <action name="Done" />
+        <action name="Done"/>
       </actions>
     </pocket>
   </pockets>

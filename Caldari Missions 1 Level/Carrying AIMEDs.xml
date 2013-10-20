@@ -5,7 +5,6 @@
       <damagetype>Thermal</damagetype>
       <actions>
         <action name="ClearPocket"/>
-        <action name="Loot"/>
         <action name="Activate">
 			<parameter name="Target" value="Acceleration Gate"/>	
 		</action>        

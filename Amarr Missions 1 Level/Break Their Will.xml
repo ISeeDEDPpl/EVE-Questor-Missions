@@ -4,15 +4,15 @@
     <pocket id="0">
       <damagetype>EM</damagetype>
       <actions>
-		<action name="MoveTo">
-			<parameter name="Target" value="Repair Station" />
-		</action>
+        <action name="MoveTo">
+            <parameter name="Target" value="Repair Station" />
+        </action>
         <action name="ClearPocket" />
         <action name="Kill">
-			<parameter name="Target" value="Repair Station" />
-		</action>
+          <parameter name="Target" value="Repair Station" />
+        </action>
         <action name="ClearPocket" />
-		<action name="Done" />
+        <action name="Done" />
       </actions>
     </pocket>
   </pockets>

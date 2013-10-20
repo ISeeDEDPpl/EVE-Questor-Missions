@@ -4,11 +4,15 @@
     <pocket id="0">
       <damagetype>Kinetic</damagetype>
       <actions>
+        <action name="MoveTo">
+            <parameter name="Target" value="Repair Station" />
+        </action>
         <action name="ClearPocket" />
         <action name="Kill">
           <parameter name="Target" value="Repair Station" />
         </action>
-		<action name="Done" />
+        <action name="ClearPocket" />
+        <action name="Done" />
       </actions>
     </pocket>
   </pockets>
