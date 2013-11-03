@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mission>
+  <pockets>
+    <pocket id="0">
+	  <damagetype>Thermal</damagetype>
+	  <actions>
+	    <action name="MoveTo"> <!-- initiate movement to the "target" and fight only those NPCs that target you while you are on the way, process no other actions until you reach the target-->
+          <parameter name="Target" value="Mining Outpost" />
+          <parameter name="StopWhenTargeted" value="false" />
+        </action>
+		<action name="ClearPocket"/>
+		<action name="LootItem">
+			<parameter name="Target" value="Survey Post"/>
+			<parameter name="Item" value="Scientists"/>
+		</action>
+		<action name="ClearPocket"/>
+		<action name="MoveTo"> <!-- initiate movement to the "target" and fight only those NPCs that target you while you are on the way, process no other actions until you reach the target-->
+          <parameter name="Target" value="Mining Outpost" />
+        </action>
+		<action name="ClearPocket"/>
+		<action name="DropItem">
+			<parameter name="Target" value="Mining Outpost"/>
+			<parameter name="Item" value="Scientists"/>
+			<parameter name="Quantity" value="4"/>
+		</action>
+		<action name="Done"/>
+	  </actions>	
+	</pocket>
+  </pockets>
+</mission>

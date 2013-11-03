@@ -4,9 +4,9 @@
     <pocket id="0">
 <damagetype>EM</damagetype>
       <actions>
-<action name="ClearPocket" />
-        <action name="Loot">
-<parameter name="Target" value="Cargo Container" />
+        <action name="ClearPocket" />
+        <action name="LootItem">
+          <parameter name="Target" value="Cargo Container" />
           <parameter name="Item" value="Banidine" />
         </action>
         <action name="Done" />

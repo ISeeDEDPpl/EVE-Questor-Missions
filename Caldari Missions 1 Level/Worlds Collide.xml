@@ -4,13 +4,13 @@
     <pocket id="0">
       <damagetype>Explosive</damagetype>
       <actions>
-<action name="Kill">
+        <action name="Kill">
           <parameter name="Target" value="Gistii Hijacker" />
         </action>
-<action name="Kill">
+        <action name="Kill">
           <parameter name="Target" value="Gistii Rogue" />
         </action>
-<action name="Kill">
+        <action name="Kill">
           <parameter name="Target" value="Gistior Defacer" />
         </action>
         <action name="Activate">
@@ -39,7 +39,7 @@
           <parameter name="Target" value="Damaged Heron" />
           <parameter name="Item" value="Ship's Crew" />
         </action>
-<action name="Done" />
+        <action name="Done" />
       </actions>
     </pocket>
   </pockets>

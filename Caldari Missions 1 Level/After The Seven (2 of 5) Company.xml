@@ -8,6 +8,7 @@
         <action name="LootItem">
           <parameter name="Target" value="Cargo Container" />
           <parameter name="Item" value="Kidnapped Citizens" />
+          <parameter name="Quantity" value="10" />
         </action>
         <action name="Done" />
       </actions>
