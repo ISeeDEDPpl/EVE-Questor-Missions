@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<missions>
+  <pockets>
+    <pocket id="0">
+      <damagetype>Kinetic</damagetype>
+      <actions>
+        <action name="orbitdistance">15000</action>
+        <action name="MoveTo">
+          <parameter name="Target" value="Caldari Starbase Control Tower" />
+          <parameter name="distance">0</parameter>
+        </action>
+        <action name="MoveTo">
+          <parameter name="Target" value="Cargo Rig" />
+          <parameter name="distance">0</parameter>
+        </action>
+        <action name="MoveTo">
+          <parameter name="Target" value="Caldari Barrier" />
+          <parameter name="distance">0</parameter>
+        </action>
+        <action name="MoveTo">
+          <parameter name="Target" value="Cargo Rig" />
+          <parameter name="distance">0</parameter>
+          <parameter name="NotClosest" value="true"></parameter>
+        </action>
+        <action name="MoveTo">
+          <parameter name="Target" value="Caldari Barrier" />
+          <parameter name="distance">0</parameter>
+          <parameter name="NotClosest" value="true"></parameter>
+        </action>
+        <action name="MoveTo">
+          <parameter name="Target" value="Cargo Rig" />
+          <parameter name="distance">0</parameter>
+          <parameter name="NotClosest" value="true"></parameter>
+        </action>
+        <action name="MoveTo">
+          <parameter name="Target" value="Caldari Barrier" />
+          <parameter name="distance">0</parameter>
+          <parameter name="NotClosest" value="true"></parameter>
+        </action>
+        <action name="OrbitEntityNamed">
+          <parameter name="Target">Caldari Starbase Control Tower</parameter>
+        </action>
+        <action name="WaitUntilTargeted">
+          <parameter name="Timeout" value="180" />
+        </action>
+        <action name="ClearPocket" />
+        <action name="Loot" />
+        <action name="Done" />
+      </actions>
+    </pocket>
+  </pockets>
+</missions>
