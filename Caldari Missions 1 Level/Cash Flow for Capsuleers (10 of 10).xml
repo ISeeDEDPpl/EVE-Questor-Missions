@@ -29,7 +29,7 @@
       <actions>
 	    <action name="ClearPocket" />
 		<action name="Kill">
-          <parameter name="Target" value="Tahamar's Outpost" </>
+          <parameter name="Target" value="Tahamar's Outpost" />
         </action>
 	    <action name="ClearPocket" />
 		<action name="Done" />

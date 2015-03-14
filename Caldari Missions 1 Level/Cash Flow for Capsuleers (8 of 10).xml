@@ -8,11 +8,11 @@
           <parameter name="Target" value="Hotel Kim"></parameter>
         </action>
 		<action name="ClearPocket" />
-		<action name="LootItem">
-          <parameter name="Item" value="VIPs"></parameter>
-          <parameter name="Target" value="Hotel Kim"></parameter>
-        </action>
-		<action name="Loot"></action>
+		<!-- <action name="LootItem"> -->
+          <!-- <parameter name="Item" value="VIPs"></parameter> -->
+          <!-- <parameter name="Target" value="Hotel Kim"></parameter> -->
+        <!-- </action> -->
+		<!-- <action name="Loot"></action> -->
         <action name="Done" />
       </actions>
     </pocket>

@@ -4,16 +4,16 @@
     <pocket id="0">
       <actions>
 	    <action name="ClearPocket" />
+		<action name="Activate">
+			<parameter name="Target" value="Acceleration Gate" />
+		</action>
       </actions>
-	  <action name="Activate">
-		<parameter name="Target" value="Acceleration Gate"</>
-	  </action>
     </pocket>
 	<pocket id="1">
       <actions>
 	    <action name="ClearPocket" />
 		<action name="Kill">
-          <parameter name="Target" value="Narcotics Warehouse"</>
+          <parameter name="Target" value="Narcotics Warehouse" />
         </action>
 	    <action name="ClearPocket" />
         <action name="Done" />
